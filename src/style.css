@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    background-color: gray;
+}
+
+/* h1{
+color: red;
+text-align: center;
+} */
+
+p{
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    flex-direction: column;
+}
+.setCounter{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 10px #f0ecec;
+}
+
+button{
+    margin: 10px;
+}

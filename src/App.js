@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// import Navbar from "./Components/Navbar";
+// import Counter from "./SetCounter/Counter";
+import StawObjects from "./SetCounter/StatwObjects";
+import Form1 from "./SetCounter/Form1";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+    //    <Navbar />
+    //    <Counter />
+        // <StawObjects />
+        <Form1/>
+
+    )
 }
 
-export default App;
+
+export default App
+
+
+
+
+//export syntax
+// for single use defult
+// for multiple use export before file
+
+//import syntax
+//for single import x from "./name"
+// for multiple use import {x,y} from "./name"
+// for total fole use import * from "./name"
+
+//how to write number in jsx {10}
+//how to write Array in jsx {[]}
+
+//let course="React";
+// by {course} that access course value
